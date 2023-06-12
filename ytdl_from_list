@@ -1,0 +1,2 @@
+#download from a list of multiple URLs in a txt file
+while read line; do yt-dlp $line -P ~/yt-dlp; done < list_of_urls.txt
